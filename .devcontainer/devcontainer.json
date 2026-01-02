@@ -2,11 +2,11 @@
   "name": "RDB Alpha",
   "dockerFile": "../Dockerfile",
   "workspaceFolder": "/workspace/project",
+  "runArgs": ["--env-file", ".env"],
+  "initializeCommand": "touch .env",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "coderoad.coderoad"
-      ]
+      "extensions": ["coderoad.coderoad"]
     }
   }
 }

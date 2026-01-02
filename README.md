@@ -8,6 +8,7 @@
 
 1. Clone the RDB Alpha repo with `git clone https://github.com/freeCodeCamp/rdb-alpha`
 1. Open a terminal, navigate to the `rdb-alpha` directory, and open VSCode with `code .`
+1. Create a `.env` file by copying the `.env.example` file: `cp .env.example .env`. (Optional) Open the `.env` file and add your freeCodeCamp token to the `CODEROAD_WEBHOOK_TOKEN` variable if you want to track your progress.
 1. Press Ctrl / Cmd + Shift + P and enter `Dev Containers: Rebuild Container and Reopen in Container`
 1. A new VS Code window will open and begin building the Docker image. It will take several minutes to build the first time.
 1. Once the image is finished building, press Ctrl / Cmd + Shift + P and enter `CodeRoad: Start` to open CodeRoad
